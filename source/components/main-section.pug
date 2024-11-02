@@ -1,0 +1,28 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-bn-bold.font-s-70
+        | «BLACKCROW» — 
+        br.no-br
+        | ваш табачный магазин 
+        br
+        | с чистой прибылью
+      .main-section__sub-title.font-w-bn-regular.font-s-40
+        | от 140 000 рублей ежемесячно
+      .main-section__text.font-s-40
+        span.font-w-bn-book.main-section__text-grey
+          | Узнайте, как запустить 
+          br.no-br
+          | работу бизнеса 
+        span.font-w-bn-regular всего за 2 месяца
+      .font-w-light.font-s-20
+        | Получите подробный 
+        br.no-br
+        | план открытия в 1 клик
+      form.main-section__form(data-feedback-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") Получить
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1738" height="1628" alt="image")

@@ -1,0 +1,80 @@
+.city-section
+  background-image: url('../images/city-section-bg.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  background-color #1F2425
+
+  &__container
+    position relative
+    text-align: center
+    padding 20px 0 20px 0
+    +above($breakpoints.sm)
+      text-align: start
+      padding 50px 0 25px 0
+    +above($breakpoints.md)
+      padding 80px 0 30px 0
+    +above($breakpoints.xxl)
+      padding 100px 0 32px 0
+
+  &__box
+    +above($breakpoints.sm)
+      margin-left 50px
+    +above($breakpoints.md)
+      margin-left 80px
+    +above($breakpoints.xxl)
+      margin-left 100px
+
+  &__title
+    line-height 125% !important
+
+  &__title-padding
+    +above($breakpoints.sm)
+      padding-left 140px
+    +above($breakpoints.md)
+      padding-left 180px
+    +above($breakpoints.xxl)
+      padding-left 273px
+
+  &__bottom
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+    padding 15px 0 20px
+    +above($breakpoints.sm)
+      flex-direction: row
+      align-items: flex-start
+      gap: 60px
+      padding 30px 0 40px
+    +above($breakpoints.md)
+      gap: 80px
+      padding 50px 0 60px
+    +above($breakpoints.xxl)
+      gap: 127px
+      padding 76px 0 85px
+
+  &__form
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 5px
+    +above($breakpoints.sm)
+      flex-direction: row
+      flex-wrap: wrap
+      width 370px
+      gap: 8px
+    +above($breakpoints.md)
+      width 470px
+      gap: 10px
+    +above($breakpoints.xxl)
+      width 516px
+      gap: 14px
+    & > *
+      width 280px !important
+      +above($breakpoints.sm)
+        width 180px !important
+      +above($breakpoints.md)
+        width 230px !important
+      +above($breakpoints.xxl)
+        width 251px !important

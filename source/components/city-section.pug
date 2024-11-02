@@ -1,0 +1,22 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      .city-section__box
+        h1.city-section__title.font-w-bnp-bold.font-s-60.text-up
+          span.color-violet Зарабатывайте от 196 000 рублей ежемесячно 
+          br
+          span.city-section__title-padding на собственном табачном магазине
+        .city-section__bottom
+          .font-w-light.font-s-20
+            | Проверьте, свободен ли ваш 
+            br.no-br
+            | город  для работы по 
+            br.no-br
+            | франшизе «BLACKCROW»
+          form.city-section__form(data-feedback-form)
+            input(type="text" name="honeyfield" class="honeypot" style="display:none")
+            input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+            input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+            input.input(type="text" name="email" autocomplete="off" placeholder="E-mail")
+            button.btn(type="submit") Записаться
+      include ../components/footer.pug

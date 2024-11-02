@@ -1,0 +1,62 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      .finances-section__box
+        h2.finances-section__title.font-w-bn-bold.font-s-60.text-up
+          span.color-violet Ключевые показатели 
+          br.no-br
+          | франшизы
+        .swiper-bullet
+          .finances-section__cards.swiper-wrapper
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.font-w-bn-regular.font-s-40.text-up 16 месяцев
+              .font-w-thin.font-s-18
+                | срок окупаемости 
+                br.no-br
+                | бизнеса
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.font-w-bn-regular.font-s-40.text-up от 30 продаж
+              .font-w-thin.font-s-18
+                | будет совершаться 
+                br.no-br
+                | ежедневно
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.font-w-bn-regular.font-s-40.text-up от 900 рублей
+              .font-w-thin.font-s-18
+                | средний чек 
+                br.no-br
+                | одного клиента
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.font-w-bn-regular.font-s-40.text-up 820 000 рублей
+              .font-w-thin.font-s-18
+                | ежемесячная 
+                br.no-br
+                | выручка
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.font-w-bn-regular.font-s-40.text-up 24%
+              .font-w-thin.font-s-18
+                | рентабельность 
+                br.no-br
+                | по чистой прибыли
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.font-w-bn-regular.font-s-40.text-up 196 000 рублей
+              .font-w-thin.font-s-18
+                | ежемесячная 
+                br.no-br
+                | чистая прибыль
+          .bullet-pagination
+      .finances-section__bottom
+        .finances-section__bottom-text
+          .font-w-bn-bold.font-s-40.text-up
+            | Узнайте, какие инвестиции 
+            br
+            span.font-w-bn-book потребуются для старта
+          .font-w-light.font-s-20
+            | Скачайте финансовую модель франшизы
+        form.finances-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          input.input(type="text" name="email" autocomplete="off" placeholder="E-mail")
+          button.btn(type="submit") Скачать
+      img.finances-section__img(src="images/finances-section-img.jpg" loading="lazy" width="1240" height="1554" alt="image")

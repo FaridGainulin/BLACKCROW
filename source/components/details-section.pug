@@ -1,0 +1,51 @@
+section.details-section
+  .wrapper
+    .details-section__container
+      .details-section__box
+        h2.details-section__title.font-w-bnp-bold.font-s-60.text-up
+          span.color-violet Погрузитесь 
+          br.no-br
+          | в работу бизнеса
+        .details-section__sub-title.font-w-light.font-s-20
+          | Запишитесь на консультацию, 
+          br
+          | где мы расскажем вам:
+        .swiper-bullet
+          .details-section__cards.swiper-wrapper
+            .details-section__card.swiper-slide
+              img.details-section__card-icon(src="images/details-section-card-icon.svg" loading="lazy" width="14" height="14" alt="icon")
+              .font-s-18
+                span.font-w-medium Из чего состоит ежедневная работа владельца 
+                br.no-br
+                | табачного магазина
+            .details-section__card.swiper-slide
+              img.details-section__card-icon(src="images/details-section-card-icon.svg" loading="lazy" width="14" height="14" alt="icon")
+              .font-s-18
+                span.font-w-medium Какие товары пользуются наибольшим спросом 
+                br.no-br
+                | и какой средний чек
+            .details-section__card.swiper-slide
+              img.details-section__card-icon(src="images/details-section-card-icon.svg" loading="lazy" width="14" height="14" alt="icon")
+              .font-s-18
+                span.font-w-medium Как правильно позиционировать себя на рынке 
+                br.no-br
+                | и кто ваша ЦА
+            .details-section__card.swiper-slide
+              img.details-section__card-icon(src="images/details-section-card-icon.svg" loading="lazy" width="14" height="14" alt="icon")
+              .font-s-18
+                span.font-w-medium Как легко привлекать клиентов и выделиться 
+                br.no-br
+                | среди конкурентов
+            .details-section__card.swiper-slide
+              img.details-section__card-icon(src="images/details-section-card-icon.svg" loading="lazy" width="14" height="14" alt="icon")
+              .font-s-18
+                span.font-w-medium Как быстро окупить вложения 
+                br.no-br
+                | и выйти на стабильную прибыль
+          .bullet-pagination
+        form.details-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Записаться
+      img.details-section__img(src="images/details-section-img.png" loading="lazy" width="1240" height="1610" alt="image")
